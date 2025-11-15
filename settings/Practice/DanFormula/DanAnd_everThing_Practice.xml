@@ -1,0 +1,364 @@
+﻿<DanFormulas><List>
+
+	<!--十万回灵丹-->
+	<Dan Name="Dan_evth_10wling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_10wling</ItemName>			<!-- 对应key -->
+		<Level>1</Level>						<!-- 炼丹技能等级 -->
+		<SuccessRate>1</SuccessRate>			<!-- 成功率 -->
+		<Count>1</Count>						<!-- 成丹数量 -->
+	</Dan>
+	
+	<!--百万回灵丹-->
+	<Dan Name="Dan_evth_baiwling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_baiwling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--千万回灵丹-->
+	<Dan Name="Dan_evth_qianwling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_qianwling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--一亿回灵丹-->
+	<Dan Name="Dan_evth_1yiling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_1yiling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--十亿回灵丹-->
+	<Dan Name="Dan_evth_10yiling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_10yiling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--百亿回灵丹-->
+	<Dan Name="Dan_evth_baiyiling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_baiyiling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--小元灵丹-->
+	<Dan Name="Dan_evth_xiaoyuanling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_xiaoyuanling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--大元灵丹-->
+	<Dan Name="Dan_evth_dayuanling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_dayuanling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--十万灵丹-->
+	<Dan Name="Dan_evth_shiwanling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shiwanling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--百万灵丹-->
+	<Dan Name="Dan_evth_baiwanling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_baiwanling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--千万灵丹-->
+	<Dan Name="Dan_evth_qianwanling">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_qianwanling</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--神性神丹-->
+	<Dan Name="Dan_evth_shenxingshen">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shenxingshen</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--人性神丹-->
+	<Dan Name="Dan_evth_renxingshen">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_renxingshen</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--神千居神丹-->
+	<Dan Name="Dan_evth_shenqjushen">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shenqjushen</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--神万居神丹-->
+	<Dan Name="Dan_evth_shenwjushen">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shenwjushen</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--神千拆神丹-->
+	<Dan Name="Dan_evth_shenqchaishen">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shenqchaishen</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--神万拆神丹-->
+	<Dan Name="Dan_evth_shenwchaishen">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shenwchaishen</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--窃天仙丹-->
+	<Dan Name="Dan_evth_qietxdxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_qietxdxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--得道仙丹-->
+	<Dan Name="Dan_evth_dedaoxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_dedaoxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--失道仙丹-->
+	<Dan Name="Dan_evth_shidaoxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shidaoxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--天谴仙丹-->
+	<Dan Name="Dan_evth_tianqianxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_tianqianxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--功德仙丹-->
+	<Dan Name="Dan_evth_gongdexian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_gongdexian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--长生仙丹-->
+	<Dan Name="Dan_evth_changshenxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_changshenxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--短生仙丹-->
+	<Dan Name="Dan_evth_duanshenxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_duanshenxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--参悟仙丹-->
+	<Dan Name="Dan_evth_canwuxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_canwuxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--不悟仙丹
+	<Dan Name="Dan_evth_buwuxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_buwuxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	-->
+	
+	<!--八境纯阳丹-->
+	<Dan Name="Dan_evth_bajcydan">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_bajcydan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--一心二用丹-->
+	<Dan Name="Dan_evth_yixeydan">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_yixeydan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--起死回生丹-->
+	<Dan Name="Dan_evth_qishsdan">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_qishsdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--脱胎换骨丹-->
+	<Dan Name="Dan_evth_tuothgdan">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_tuothgdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--逆天而行丹-->
+	<Dan Name="Dan_evth_nitexdan">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_nitexdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--金行天丹-->
+	<Dan Name="Dan_evth_jinxtdtian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_jinxtdtian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--木行天丹-->
+	<Dan Name="Dan_evth_muxtdtian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_muxtdtian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--水行天丹-->
+	<Dan Name="Dan_evth_shuixtdtian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_shuixtdtian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--火行天丹-->
+	<Dan Name="Dan_evth_huoxtdtian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_huoxtdtian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--土行天丹-->
+	<Dan Name="Dan_evth_tuxtdtian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_tuxtdtian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--混沌天丹-->
+	<Dan Name="Dan_evth_hundtdtian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_hundtdtian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--灵剑仙丹-->
+	<Dan Name="Dan_evth_linjxdxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_linjxdxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--灵盾仙丹-->
+	<Dan Name="Dan_evth_lindxdxian">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_lindxdxian</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--自毁魔丹-->
+	<Dan Name="Dan_evth_zihmdmo">				
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_evth_zihmdmo</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+</List></DanFormulas>

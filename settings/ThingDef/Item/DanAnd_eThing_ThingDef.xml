@@ -1,0 +1,2294 @@
+﻿<ThingDefs><List>
+	<!--十万回灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_10wling" Parent="DanBase">
+		<MaxStack>100</MaxStack>
+		<ThingName>十万回灵丹</ThingName>
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>			<!--  -->
+		<Desc>恢复十万点灵气。</Desc>
+		<Rate>12</Rate>						<!-- 几阶 -->
+		<Beauty>30</Beauty>					<!-- 美观 -->
+		<ElementKind>None</ElementKind>		<!-- 五行属性 -->
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>					<!--功能 转另一个文件，或者已有的固定功能-->
+				<!--  <Modifier>DAN_AND_EV_10WLing</Modifier>  -->
+				<Ling>100000</Ling>			<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>					<!--制造消耗物品-->
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>		<!-- 五行属性 -->
+			<Value>25</Value>
+		</Element>
+		<!--聚灵相关
+		<Ling>
+			<AddionLing>75</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>0.9</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+		-->
+		<Light>	<!-- 发光相关 -->
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+
+	<!--百万回灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_baiwling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>百万回灵丹</ThingName>					<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>恢复百万点灵气。</Desc>				<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>1000000</Ling>				<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>					<!--制造消耗物品-->
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	
+	
+	<!--千万回灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_qianwling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>千万回灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>恢复千万点灵气，因为过于逆天，甚至影响了数值的显现。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000000</Ling>										<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>			<!--制造消耗物品-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	
+	<!--一亿回灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_1yiling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>一亿回灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>恢复一亿点灵气，因为过于逆天，甚至影响了数值的显现。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>100000000</Ling>										<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>			<!--制造消耗物品-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--十亿回灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_10yiling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>十亿回灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>恢复十亿点灵气，因为过于逆天，甚至影响了数值的显现。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>1000000000</Ling>										<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>			<!--制造消耗物品-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--百亿回灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_baiyiling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>百亿回灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>恢复百亿点灵气，因为过于逆天，甚至影响了数值的显现。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>1000000000</Ling>										<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>			<!--制造消耗物品-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	
+	<!--小元灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_xiaoyuanling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>小元灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>能增加根本灵气的奇妙灵丹，增加根本灵气一千点。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_xiaoyuanLing</Modifier>						<!--  -->
+				<Ling>1000</Ling>												<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>			<!--制造消耗物品-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--大元灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_dayuanling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>大元灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>能增加根本灵气的奇妙灵丹，增加根本灵气一万点。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_dayuanLing</Modifier>						<!--  -->
+				<Ling>1000</Ling>												<!--含灵气-->
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>			<!--制造消耗物品-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	
+	<!--十万灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shiwanling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>十万灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加灵气最大值十万点。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shiwanLing</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--百万灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_baiwanling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>百万灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加灵气最大值百万点。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_baiwanLing</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--千万灵丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_qianwanling" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>千万灵丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加灵气最大值千万点。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_qianwanLing</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	
+	<!--神性神丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shenxingshen" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>神性神丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加神修一点点神性，十分危险的神丹，神性百分百时，神修会不可避免的飞升。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shenxingshen</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--人性神丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_renxingshen" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>人性神丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加神修一点点人性，既是降低神性。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_renxingshen</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--神千居神丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shenqjushen" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>神千居神丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加神修的可容纳神民数一千，但很容易不小心使用过多，超过可控神民数，导致怨念积累，产生怨念天劫。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shenqjushen</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--神万居神丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shenwjushen" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>神万居神丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加神修的可容纳神民数一万，但很容易不小心使用过多，超过可控神民数，导致怨念积累，产生怨念天劫。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shenwjushen</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--神千拆神丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shenqchaishen" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>神千拆神丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>神民住房拆迁，减一千可容纳神民数。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shenqchaishen</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--神万拆神丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shenwchaishen" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>神万拆神丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>神民住房拆迁，减一万可容纳神民数。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shenwchaishen</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--窃天仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_qietxdxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>窃天仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>能窃取天机之谜，拖延天劫的强横仙丹。拖延天劫50天。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_qietxdxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--得道仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_dedaoxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>得道仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>得道多助，增加10道行的仙丹。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_dedaoxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--失道仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shidaoxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>失道仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>失道寡助，减少10道行的仙丹。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_shidaoxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--天谴仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_tianqianxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>天谴仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>你的行为让上天震怒，增加10天谴的仙丹。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_tianqianxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--功德仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_gongdexian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>功德仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>瞒天过海，窃取10功德的仙丹。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_gongdexian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--长生仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_changshenxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>长生仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>长生久视，天地同寿，增加百年寿元的仙丹。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_changshenxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--短生仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_duanshenxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>短生仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>虽得仙道，不堕轮回，但有时也会有奇怪的想法，催生出这种奇妙的仙丹，减少百年寿元的仙丹。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_duanshenxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--参悟仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_canwuxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>参悟仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>得到大量参悟的仙丹，可反复使用。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>1000000</TreeExp>
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<![CDATA[
+	<!--不悟仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_buwuxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>不悟仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>减少大量参悟的仙丹，可反复使用。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>-1000000</TreeExp>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	]]>
+	
+	<!--八境纯阳丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_bajcydan" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>八境纯阳丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增加8条分神的神奇丹药，可以反复使用。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<GodSoulCount>8</GodSoulCount>
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--一心二用丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_yixeydan" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>一心二用丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>能多操纵一个法宝的神奇丹药，可以反复使用。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_yixeydan</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--起死回生丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_qishsdan" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>起死回生丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>能治愈任何伤势，有起死回生功效的神奇丹药，但是很遗憾，天道有缺，还是无法治疗弥留状态的人。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<RecoveryLable>
+					<li>Dfood</li>
+					<li>None</li>
+					<li>OldScar</li>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+					<li>Soul</li>
+				</RecoveryLable>
+				<RecoveryValue>1000</RecoveryValue>
+				<RecoveryDuration>0.04</RecoveryDuration>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--脱胎换骨丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_tuothgdan" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>脱胎换骨丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>脱胎换骨，洗筋伐髓，极大增强五维。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_tuothgdan</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--逆天而行丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_nitexdan" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>逆天而行丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>增强潜力，逆天而行，但，潜力终究是先天注定，只能增强一点点后天潜力。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_nitexdan</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--金行天丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_jinxtdtian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>金行天丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_benyuanjin01</TexPath>
+		<Desc>天道金系本源，炼化成的丹丸，有超强的金系风水，以及超强的聚灵效果。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>300</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>			<!-- 耗散 -->
+			<Absorption>1</Absorption>				<!-- 吸收系数 -->
+			<Accommodate>1</Accommodate>			<!-- 容纳系数 -->
+			<LingSource>100000</LingSource>			<!-- 灵脉 -->
+		</Ling>
+		<Light>
+			<Value>100</Value>
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>3</FailRadius>
+			<Color>FFFFFF00</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--木行天丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_muxtdtian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>木行天丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_benyuanmu01</TexPath>
+		<Desc>天道木系本源，炼化成的丹丸，有超强的木系风水，以及超强的聚灵效果。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>300</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>			<!-- 耗散 -->
+			<Absorption>1</Absorption>				<!-- 吸收系数 -->
+			<Accommodate>1</Accommodate>			<!-- 容纳系数 -->
+			<LingSource>100000</LingSource>			<!-- 灵脉 -->
+		</Ling>
+		<Light>
+			<Value>100</Value>
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>3</FailRadius>
+			<Color>FF00FF00</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--水行天丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_shuixtdtian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>水行天丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_benyuanshui01</TexPath>
+		<Desc>天道水系本源，炼化成的丹丸，有超强的水系风水，以及超强的聚灵效果。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>300</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>			<!-- 耗散 -->
+			<Absorption>1</Absorption>				<!-- 吸收系数 -->
+			<Accommodate>1</Accommodate>			<!-- 容纳系数 -->
+			<LingSource>100000</LingSource>			<!-- 灵脉 -->
+		</Ling>
+		<Light>
+			<Value>100</Value>
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>3</FailRadius>
+			<Color>FF70DB93</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--火行天丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_huoxtdtian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>火行天丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_benyuanhuo01</TexPath>
+		<Desc>天道火系本源，炼化成的丹丸，有超强的火系风水，以及超强的聚灵效果。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>300</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>			<!-- 耗散 -->
+			<Absorption>1</Absorption>				<!-- 吸收系数 -->
+			<Accommodate>1</Accommodate>			<!-- 容纳系数 -->
+			<LingSource>100000</LingSource>			<!-- 灵脉 -->
+		</Ling>
+		<Light>
+			<Value>100</Value>
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>3</FailRadius>
+			<Color>FF00FF00</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--土行天丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_tuxtdtian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>土行天丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_benyuantu01</TexPath>
+		<Desc>天道土系本源，炼化成的丹丸，有超强的土系风水，以及超强的聚灵效果。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>300</Value>
+			<Radius>3</Radius>
+		</Element>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>			<!-- 耗散 -->
+			<Absorption>1</Absorption>				<!-- 吸收系数 -->
+			<Accommodate>1</Accommodate>			<!-- 容纳系数 -->
+			<LingSource>100000</LingSource>			<!-- 灵脉 -->
+		</Ling>
+		<Light>
+			<Value>100</Value>
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>3</FailRadius>
+			<Color>FFA67D3D</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--混沌天丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_hundtdtian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>混沌天丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_benyuanwu01</TexPath>
+		<Desc>天道混沌本源，炼化成的丹丸，风水为无，有超强的聚灵效果。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Ling>10000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+		
+			<Attenuation>0.1</Attenuation>			<!-- 耗散 -->
+			<Absorption>1</Absorption>				<!-- 吸收系数 -->
+			<Accommodate>1</Accommodate>			<!-- 容纳系数 -->
+			<LingSource>100000</LingSource>			<!-- 灵脉 -->
+		</Ling>
+		<Light>
+			<Value>100</Value>
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>3</FailRadius>
+			<Color>FFFFFFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--灵剑仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_linjxdxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>灵剑仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>《周易》云，大道五十，天衍四十九，人遁其一，这回灵倍率就是遁去一的两个之一，每多一个倍率就相当于与人拼斗时多一倍灵气。增加一点点回灵倍率，可反复使用</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_linjxdxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--灵盾仙丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_lindxdxian" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>灵盾仙丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>《周易》云，大道五十，天衍四十九，人遁其一，这灵气护盾就是遁去一的另一个之一，每多一点护盾就相当于与人挨打时多一倍灵气。增加一点点根本护盾强度，可反复使用。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_lindxdxian</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+	<!--自毁魔丹-->
+	<ThingDef Type="Item" Name="Item_Dan_evth_zihmdmo" Parent="DanBase">	<!--  -->
+		<MaxStack>100</MaxStack>
+		<ThingName>自毁魔丹</ThingName>										<!--  -->
+		<TexPath>res\Sprs\object\object_dimulingye02</TexPath>
+		<Desc>毁灭道基，从此不得寸进，但也能因此永护山门。使用此法自绝仙路，除非重生再无他法(暂定)，但在世真仙使用，可以永久消去天劫之苦，而且也能出门历练，不失为一种解脱。</Desc>										<!--  -->
+		<Rate>12</Rate>
+		<Beauty>30</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">				<!-- 门派 -->
+					<BuyPrice Value="5000" FriendPoint="5"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">				<!-- 商人 -->
+					<BuyPrice Value="5000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">				<!-- 拍卖 -->
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>DAN_AND_EV_zihmdmo</Modifier>						<!--  -->
+				<Ling>1000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>25</Value>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>0</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>
+	</ThingDef>
+	
+</List></ThingDefs>

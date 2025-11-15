@@ -1,0 +1,283 @@
+﻿<ModifierDefs><List>
+	
+	<![CDATA[
+	<!--回灵丹-->
+	<Modifier Name="DAN_AND_EV_10WLing" Type="Normal">
+		<DisplayName>回灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>		<!-- 生效时间 -->
+		<Display>0</Display>		<!-- if显示 -->
+		<Properties>				<!-- 功能定制 -->
+			<li Name="GodPractice_GodPowerAddV" AddV="-10"/>
+		</Properties>
+	</Modifier> 
+	]]>
+	
+	<!--小元灵丹-->
+	<Modifier Name="DAN_AND_EV_xiaoyuanLing" Type="Normal">
+		<DisplayName>小元灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="1000"/>
+		</Properties>
+	</Modifier>
+	
+	<!--大元灵丹-->
+	<Modifier Name="DAN_AND_EV_dayuanLing" Type="Normal">
+		<DisplayName>大元灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="10000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="DAN_AND_EV_shiwanLing" Type="Normal">
+		<DisplayName>十万灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="100000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="DAN_AND_EV_baiwanLing" Type="Normal">
+		<DisplayName>百万灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="DAN_AND_EV_qianwanLing" Type="Normal">
+		<DisplayName>千万灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="10000000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="DAN_AND_EV_shenxingshen" Type="Normal">
+		<DisplayName>神性神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodPractice_GodPowerAddV" AddV="1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_renxingshen" Type="Normal">
+		<DisplayName>人性神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodPractice_GodPowerAddV" AddV="-1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_shenqjushen" Type="Normal">
+		<DisplayName>神千居神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodCity_MaxResident" AddV="1000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_shenwjushen" Type="Normal">
+		<DisplayName>神万居神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodCity_MaxResident" AddV="10000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_shenqchaishen" Type="Normal">
+		<DisplayName>神千拆神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodCity_MaxResident" AddV="-1000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_shenwchaishen" Type="Normal">
+		<DisplayName>神万拆神丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodCity_MaxResident" AddV="-10000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_qietxdxian" Type="Normal">
+		<DisplayName>窃天仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NeckCountdownAddV" AddV="30000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_dedaoxian" Type="Normal">
+		<DisplayName>得道仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="10"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_shidaoxian" Type="Normal">
+		<DisplayName>失道仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-10"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_tianqianxian" Type="Normal">
+		<DisplayName>天谴仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="10"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_gongdexian" Type="Normal">
+		<DisplayName>功德仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-10"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_changshenxian" Type="Normal">
+		<DisplayName>长生仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="100"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_duanshenxian" Type="Normal">
+		<DisplayName>短生仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="-100"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_yixeydan" Type="Normal">
+		<DisplayName>一心二用丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_tuothgdan" Type="Normal">
+		<DisplayName>脱胎换骨丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>10,10,10,10,10</BaseFive>
+		<Properties></Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_nitexdan" Type="Normal">
+		<DisplayName>逆天而行丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_linjxdxian" Type="Normal">
+		<DisplayName>灵剑仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_lindxdxian" Type="Normal">
+		<DisplayName>灵盾仙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="DAN_AND_EV_zihmdmo" Type="Normal">
+		<DisplayName>自毁魔丹</DisplayName>
+		<Desc>道基已毁，无论如何修行都再无精进了。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<SpecialFlags>
+			<li>FLAG_PRACTICEDIE</li>
+		</SpecialFlags>
+	</Modifier> 
+	
+</List></ModifierDefs>
